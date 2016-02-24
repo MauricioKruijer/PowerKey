@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229E19631C7E0F710025269E /* lockScreen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 229E19621C7E0F710025269E /* lockScreen.sh */; };
 		5810470F17BD8BF600E438FB /* PKPowerKeyEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810470E17BD8BF600E438FB /* PKPowerKeyEventListener.m */; };
 		58133AB01BFFEDC200A6FD4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58133AAF1BFFEDC200A6FD4F /* Images.xcassets */; };
 		585BC3DC1BFC00F4007B4D89 /* PKScriptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585BC3DB1BFC00F4007B4D89 /* PKScriptController.m */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229E19621C7E0F710025269E /* lockScreen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = lockScreen.sh; sourceTree = "<group>"; };
 		5810470D17BD8BF600E438FB /* PKPowerKeyEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPowerKeyEventListener.h; sourceTree = "<group>"; };
 		5810470E17BD8BF600E438FB /* PKPowerKeyEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPowerKeyEventListener.m; sourceTree = "<group>"; };
 		58133AAF1BFFEDC200A6FD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		58C1102F1ABF332B00BB3E7F /* scripts */ = {
 			isa = PBXGroup;
 			children = (
+				229E19621C7E0F710025269E /* lockScreen.sh */,
 				58C110301ABF332B00BB3E7F /* helloPowerKey.sh */,
 				58C110311ABF332B00BB3E7F /* helloPowerKeyAppleScript.scpt */,
 			);
@@ -196,6 +199,7 @@
 				58133AB01BFFEDC200A6FD4F /* Images.xcassets in Resources */,
 				58C110331ABF332B00BB3E7F /* helloPowerKeyAppleScript.scpt in Resources */,
 				58C110321ABF332B00BB3E7F /* helloPowerKey.sh in Resources */,
+				229E19631C7E0F710025269E /* lockScreen.sh in Resources */,
 				5898DF7A17BEC4550048F11F /* PKPreferencesWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

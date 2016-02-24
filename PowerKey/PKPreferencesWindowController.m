@@ -25,6 +25,7 @@ const NSInteger kPowerKeyScriptTag = 0xC0DE;
     
     [self copyBundleResourceToSupportDirectory:@"helloPowerKey" withExtension:@"sh"];
     [self copyBundleResourceToSupportDirectory:@"helloPowerKeyAppleScript" withExtension:@"scpt"];
+    [self copyBundleResourceToSupportDirectory:@"lockScreen" withExtension:@"sh"];
 
     [self.powerKeySelector setMenu:[self powerKeyReplacementsMenu]];
     
